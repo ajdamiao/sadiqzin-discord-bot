@@ -11,7 +11,7 @@ public class Main {
     {
         JDABuilder jdaBuilder = new JDABuilder(AccountType.BOT)
                 .setAutoReconnect(true)
-                .setToken("NzI1NDUwNTU2NDE5ODY2NjI0.XvPVSQ.aEECMm6QKNTg8MkDzfY5H_gibP8");
+                .setToken("");
         JDA jda;
 
         jdaBuilder.setActivity(Activity.watching("Sadiq lindo"));
