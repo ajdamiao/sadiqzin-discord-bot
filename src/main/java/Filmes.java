@@ -18,7 +18,7 @@ public class Filmes extends ListenerAdapter {
 
     @Override
     public void onMessageReceived(MessageReceivedEvent e) {
-        String[] mensagemRecebida = e.getMessage().getContentRaw().split(" ");
+        mensagemRecebida = e.getMessage().getContentRaw().split(" ");
         if(mensagemRecebida[0].equals("+filme"))
         {
             pegarSinopse(mensagemRecebida[1]);
